@@ -1,0 +1,32 @@
+//@ Import fonts
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+//Fonts:
+$ff-poppins: 'Poppins', sans-serif;
+$ff-open-sans: 'Open Sans', sans-serif;
+// Colors:
+    // Primary
+    $c-p-Pink: hsl(322, 100%, 66%);
+    $c-p-Very-Dark-Cyan: hsl(192, 100%, 9%);
+    // Accent
+    $c-a-Light-Pink: hsl(321, 100%, 78%);
+    // Neutral
+    $c-n-Light-Red: hsl(0, 100%, 63%);
+    $c-n-Very-Pale-Blue: hsl(207, 100%, 98%);
+    $c-n-diag:hsla(208, 12%, 55%, 1);
+    $c-n-white: hsl(0,0%,100%);
+    $c-n-black: hsl(0,0%,0%);
+// Screen Variables
+    $screen-min: 23.4375rem;
+    $screen-max: 90rem;
+
+
+
+body{ 
+    min-height: 100vh;
+    min-height: 100svh;
+    background-color: $c-n-white;    
+}
+
+
+

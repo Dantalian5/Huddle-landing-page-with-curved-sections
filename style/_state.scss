@@ -1,0 +1,29 @@
+.input-form:invalid{
+    border: 1px solid red;
+    & + span{
+        display: block;
+        margin-top: 6px;
+        &::after{
+            content: 'Please check your email';
+            font-family: $ff-open-sans;
+            font-weight: 400;
+            font-size: .75rem;
+            color: red;
+        }
+    }
+
+}
+
+@media (hover: hover) {
+    .btn:hover,
+    .footer__cta__btn:hover{
+        background-color: $c-a-Light-Pink;
+    }
+    .navbar__cta:hover{
+        color: $c-a-Light-Pink;
+        border-color: $c-a-Light-Pink;
+    }
+    .footer__social__item:hover{
+        color: hsla(192, 100%, 49%, 1);
+    }
+}
