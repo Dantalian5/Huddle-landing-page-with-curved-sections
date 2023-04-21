@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style/style.css" type="text/css">
+  <title>Frontend Mentor | Huddle landing page with curved sections</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header class="section  header">
+    <nav class="navbar flex">
+      <div class="navbar__logo">
+        <img src="./images/logo.svg" alt="logo">
+      </div>
+      <a class="navbar__cta" href="#">Try it free</a>
+    </nav>
+    <div class="hero">
+      <h1 class="section__title hero__title">Build The Community Your Fans Will Love</h1>
+      <p class="section__subtitle hero__subtitle"> Huddle re-imagines the way we build communities. You have a voice, but so does 
+        your audience. Create connections with your users as you engage in genuine discussion. </p>
+      <a class="btn hero__btn" href="#">Get Started For Free</a> 
+      <img class="hero__img" src="./images/screen-mockups.svg" alt="mockups ilustration"> 
+
+      <div class=" flex row hero__diagram">
+        <div class="hero__diagram__item">
+          <div class="hero__diagram__item__icon">
+            <img src="./images/icon-communities.svg" alt="icon">
+          </div>
+          <p class="hero__diagram__item__number">1.4k+</p>
+          <p class="section__subtitle hero__diagram__item__info">Communities Formed</p>
+        </div>
+        <div class="hero__diagram__item">
+          <div class="hero__diagram__item__icon">
+            <img src="./images/icon-messages.svg" alt="icon">
+          </div>
+          <p class="hero__diagram__item__number">2.7m+</p>
+          <p class="section__subtitle hero__diagram__item__info">Messages Sent</p>
+        </div>
+      </div>
+    </div>    
+  </header>
+  <main>
+    <section class="section section-1 section-1--bkg1">
+      <div class="flex row row--inv section-1__wrapper">
+        <div class="row__col section-1__img">
+          <img class="section-1__img--item" src="./images/illustration-grow-together.svg" alt="ilustration">
+        </div>
+        <div class="row__col section-1__info">
+          <h2 class="section__title section-1__info__title">Grow Together</h2>
+          <p class="section__subtitle section-1__info__text">
+            Generate meaningful discussions with your audience and build a strong, loyal community. 
+            Think of the insightful conversations you miss out on with a feedback form. 
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section section-1">
+      <div class="flex row section-1__wrapper">
+        <div class="row__col section-1__img">
+          <img class="section-1__img--item" src="./images/illustration-flowing-conversation.svg" alt="ilustration">
+        </div>
+        <div class="row__col section-1__info section-1__info">
+          <h2 class="section__title section-1__info__title section-1__info__title--left">Flowing Conversations</h2>
+          <p class="section__subtitle section-1__info__text section-1__info__text--left">
+            You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
+            just-in-time loading for a more natural flow. 
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section section-1 section-1--bkg2">
+      <div class="flex row row--inv section-1__wrapper">
+        <div class="row__col section-1__img">
+          <img class="section-1__img--item" src="./images/illustration-your-users.svg" alt="ilustration">
+        </div>
+        <div class="row__col section-1__info">
+          <h2 class="section__title section-1__info__title">Your Users</h2>
+          <p class="section__subtitle section-1__info__text">
+            It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
+            once signed in to your app, your users can start chatting immediately.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section class="section-cta">
+    <h3 class="section__title section-cta__title">Ready To Build Your Community?</h3>
+    <a class="btn section-cta__btn" href="#">Get Started For Free</a>
+  </section>
+
+  <footer class="section footer">
+    <div class="flex row row--inv footer__wrapper">
+      <div class="row__col">
+        <div class="footer__news">
+          <h4 class="footer__title">Newsletter</h4>
+          <p class="footer__info">To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
+            send you spam or pass on your email address</p>
+          <div class="footer__cta flex row">
+            <div class="footer__cta__input">
+              <input class="footer__cta__input--entry input-form" type="email" placeholder="Enter your email..." pattern="[^@\s]+@[^@\s]+\.[^@\s]+">
+              <span></span>
+            </div>
+            <a class="footer__cta__btn" href="#">Subscribe</a>
+          </div>
+        </div>
+      </div>
+      <div class="row__col">
+        <div class="footer__contact">
+          <div class="footer__logo">
+            <img src="./images/logo.svg" alt="logo">
+          </div>
+          <p class="footer__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
+            vestibulum a, ultrices quis sem.</p>
+          <div class="footer__cnt flex">
+            <div class="footer__cnt__icon">
+              <img src="./images/icon-phone.svg" alt="icon">
+            </div>
+            <p class="footer__cnt__text">Phone: +1-543-123-4567</p>
+          </div>  
+          <div class="footer__cnt flex">
+            <div class="footer__cnt__icon">
+              <img src="./images/icon-email.svg" alt="icon">
+            </div>
+            <p class="footer__cnt__text">example@huddle.com</p>
+          </div> 
+        </div>
+        <div class="footer__social flex">
+          <a href="#" class="footer__social__item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 24 24"><path fill="currentColor" d="M15.402 21v-6.966h2.333l.349-2.708h-2.682V9.598c0-.784.218-1.319 1.342-1.319h1.434V5.857a19.19 19.19 0 0 0-2.09-.107c-2.067 0-3.482 1.262-3.482 3.58v1.996h-2.338v2.708h2.338V21H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1h-4.598Z"/></svg>
+          <a/>
+          <a href="#" class="footer__social__item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256"><path fill="currentColor" d="M128 80a48 48 0 1 0 48 48a48.05 48.05 0 0 0-48-48Zm0 80a32 32 0 1 1 32-32a32 32 0 0 1-32 32Zm48-136H80a56.06 56.06 0 0 0-56 56v96a56.06 56.06 0 0 0 56 56h96a56.06 56.06 0 0 0 56-56V80a56.06 56.06 0 0 0-56-56Zm40 152a40 40 0 0 1-40 40H80a40 40 0 0 1-40-40V80a40 40 0 0 1 40-40h96a40 40 0 0 1 40 40ZM192 76a12 12 0 1 1-12-12a12 12 0 0 1 12 12Z"/></svg>
+          </a>
+          <a href="#" class="footer__social__item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 1024 1024"><path fill="currentColor" d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zM727.3 401.7c.3 4.7.3 9.6.3 14.4c0 146.8-111.8 315.9-316.1 315.9c-63 0-121.4-18.3-170.6-49.8c9 1 17.6 1.4 26.8 1.4c52 0 99.8-17.6 137.9-47.4c-48.8-1-89.8-33-103.8-77c17.1 2.5 32.5 2.5 50.1-2a111 111 0 0 1-88.9-109v-1.4c14.7 8.3 32 13.4 50.1 14.1a111.13 111.13 0 0 1-49.5-92.4c0-20.7 5.4-39.6 15.1-56a315.28 315.28 0 0 0 229 116.1C492 353.1 548.4 292 616.2 292c32 0 60.8 13.4 81.1 35c25.1-4.7 49.1-14.1 70.5-26.7c-8.3 25.7-25.7 47.4-48.8 61.1c22.4-2.4 44-8.6 64-17.3c-15.1 22.2-34 41.9-55.7 57.6z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div> 
+    
+  </footer>
+  
+ <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Marcos Valenzuela</a>.
+ </p>
+</body>
+</html>
