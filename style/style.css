@@ -195,10 +195,10 @@ body {
   position: absolute;
   top: 0;
   left: 50%;
-  width: 102%;
+  width: 100%;
   height: 100%;
   transform: translate(-50%, -99%);
-  background: url(../images/bg-section-top-mobile-1.svg) bottom/100% auto no-repeat;
+  background: url(../images/bg-section-top-mobile-1.svg) bottom/105% auto no-repeat;
   z-index: -1;
 }
 .section-1--bkg1::after {
@@ -206,10 +206,10 @@ body {
   position: absolute;
   bottom: 0;
   left: 50%;
-  width: 102%;
+  width: 100%;
   height: 100%;
   transform: translate(-50%, 99%);
-  background: url(../images/bg-section-bottom-mobile-1.svg) top/100% auto no-repeat;
+  background: url(../images/bg-section-bottom-mobile-1.svg) top/105% auto no-repeat;
   z-index: -1;
 }
 .section-1--bkg2 {
@@ -221,10 +221,10 @@ body {
   position: absolute;
   top: 0;
   left: 50%;
-  width: 102%;
+  width: 100%;
   height: 100%;
   transform: translate(-50%, -99%);
-  background: url(../images/bg-section-top-mobile-2.svg) bottom/100% auto no-repeat;
+  background: url(../images/bg-section-top-mobile-2.svg) bottom/105% auto no-repeat;
   z-index: -1;
 }
 .section-1--bkg2::after {
@@ -232,10 +232,10 @@ body {
   position: absolute;
   bottom: 0;
   left: 50%;
-  width: 102%;
+  width: 100%;
   height: 100%;
   transform: translate(-50%, 99%);
-  background: url(../images/bg-section-bottom-mobile-2.svg) top/100% auto no-repeat;
+  background: url(../images/bg-section-bottom-mobile-2.svg) top/105% auto no-repeat;
   z-index: -1;
 }
 .section-1__wrapper {
@@ -283,10 +283,10 @@ body {
   position: absolute;
   top: 0;
   left: 50%;
-  width: 102%;
+  width: clamp(18.75rem, 100%, 90rem);
   height: 100%;
   transform: translate(-50%, -99%);
-  background: url(../images/bg-footer-top-mobile.svg) bottom/100% auto no-repeat;
+  background: url(../images/bg-footer-top-mobile.svg) bottom/105% auto no-repeat;
   z-index: -1;
 }
 .footer__wrapper {
